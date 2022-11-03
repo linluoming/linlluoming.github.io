@@ -84,6 +84,11 @@ defaultContentLanguage = "zh-cn"  # Default language to use (if you setup multil
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
+    [params.search.google]    # google custom search, see https://cse.google.com
+    enable = true
+    id = "12fd3306c748a4e82"
+    title = "Search"
+
   [params.social]                                         # 社交链接
     a-email = "mailto:1017827630@qq.com"
     # b-stack-overflow = "http://localhost:1313"
